@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "description": "GasBuddy Crypto \u2014 real-time gas tracker for 27 blockchains.",
+  "proposedName": "GasBuddy Crypto",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "05TalaYaEYn4Rbi2NyPFeV72EDVk031g4XmkgIqTLYs=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "packageName": "snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:network-access": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    }
+  },
+  "platformVersion": "10.3.0",
+  "manifestVersion": "0.1"
+}
