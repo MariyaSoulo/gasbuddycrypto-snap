@@ -1,12 +1,34 @@
-# TypeScript Example Snap
+# GasBuddy Crypto — MetaMask Snap
 
-This snap demonstrates how to develop a snap with TypeScript. It is a simple
-snap that displays a confirmation dialog when the `hello` JSON-RPC method is
-called.
+Real-time crypto gas fees tracker for 27 blockchains, built as a MetaMask Snap.
 
-## Testing
+## Features
 
-The snap comes with some basic tests, to demonstrate how to write tests for
-snaps. To test the snap, run `yarn test` in this directory. This will use
-[`@metamask/snaps-jest`](https://github.com/MetaMask/snaps/tree/main/packages/snaps-jest)
-to run the tests in `src/index.test.ts`.
+- 🟦 **Ethereum** — real-time gas price
+- 🟪 **Polygon** — real-time gas price
+- ⬜ **Base** — real-time gas price
+- 🌐 **Open GasBuddy Crypto** — link to dashboard
+- 🤖 **Open Telegram Bot** — link to bot
+
+## Installation
+
+1. Install MetaMask Flask
+2. Visit the Snap installation page
+3. Click Connect
+4. Confirm installation
+
+## Development
+
+yarn install
+yarn start
+
+## Links
+
+- Website: https://gasbuddycrypto.pro
+- Telegram Bot: https://t.me/GasBuddy_Soulo_bot
+- Twitter: https://x.com/GasBuddy_Crypto
+- GitHub: https://github.com/MariyaSoulo/gasbuddycrypto-snap
+
+## License
+
+MIT License — see LICENSE for details.
